@@ -2,7 +2,7 @@
   float: right;
   width: 20%;
   color: white;
-  background-image: url(dark-triangles.png);
+  background-image: url(./images/dark-triangles.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
