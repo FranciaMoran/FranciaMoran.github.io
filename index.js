@@ -1,13 +1,13 @@
 'use strict'
 
-let musicImages = [
+const musicImages = [
   `./images/createmusic.jpg`,
   `./images/reacttwo.jpg`,
   `./images/reactthree.jpg`,
   `./images/searchmusic.jpg`
 ]
 
-let calorieImages = [
+const calorieImages = [
   `./images/calorie.jpg`,
   `./images/nutritionapi.jpg`,
   `./images/totals.jpg`,
@@ -15,11 +15,18 @@ let calorieImages = [
   `./images/custom.jpg`
 ]
 
+const petImages = [
+  `./images/petmap.jpg`,
+  `./images/pets.jpg`
+]
+
 function arrows() {
   changeMusicImageRight();
   changeMusicImageLeft();
   changeCalorieImageRight();
   changeCalorieImageLeft();
+  changePetImageRight();
+  changePetImageLeft();
 }
 
 $(arrows)
@@ -113,5 +120,49 @@ function newCalorieImageReturnedLeft(calorieImages) {
   else if (b <= 4) {
     b=b-1;
     return `<img id="first-images" src="${calorieImages[b]}">`
+  }
+}
+
+
+
+function changePetImageRight() {
+ $('#arrow-one-c').click(event => {
+      event.preventDefault();
+      $('#pm-images').html(newPetImageReturned(petImages))
+  });
+}
+
+
+function changePetImageLeft() {
+ $('#arrow-two-c').click(event => {
+      event.preventDefault();
+      $('#pm-images').html(newPetImageReturnedLeft(petImages))
+  });
+}
+
+let c=-1;
+
+function newPetImageReturned(petImages) {
+  if (c >= -1 && c < 1) {
+    c++;
+  return `<img id="first-images" src="${petImages[c]}">`;
+  }
+  else {
+     location.reload();
+  }
+}
+
+
+function newPetImageReturnedLeft(petImages) {
+  if (c === -1) {
+    c=c+2;
+  return `<img id="first-images" src="${petImages[c]}">`;
+  }
+  else if (c == 0) {
+     location.reload();
+  }
+  else if (a <= 1) {
+    c=c-1;
+    return `<img id="first-images" src="${petImages[c]}">`
   }
 }
