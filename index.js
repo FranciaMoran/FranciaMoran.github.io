@@ -1,18 +1,18 @@
 'use strict'
 
 let musicImages = [
-  `./images/createaccountmusic.JPG`,
-  `./images/reactcapstone2.JPG`,
-  `./images/reactcapstone3.JPG`,
-  `./images/searchmusic.JPG`
+  `./images/createaccountmusic.jpg`,
+  `./images/reactcapstone2.jpg`,
+  `./images/reactcapstone3.jpg`,
+  `./images/searchmusic.jpg`
 ]
 
 let calorieImages = [
-  `./images/Capture2.JPG`,
-  `./images/nutritionapi.JPG`,
-  `./images/totals.JPG`,
-  `./images/loggedcalorie.JPG`,
-  `./images/custom.JPG`
+  `./images/Capture2.jpg`,
+  `./images/nutritionapi.jpg`,
+  `./images/totals.jpg`,
+  `./images/loggedcalorie.jpg`,
+  `./images/custom.jpg`
 ]
 
 function arrows() {
