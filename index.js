@@ -1,17 +1,17 @@
 'use strict'
 
 let musicImages = [
-  `./images/createaccountmusic.jpg`,
-  `./images/reactcapstone2.jpg`,
-  `./images/reactcapstone3.jpg`,
+  `./images/createmusic.jpg`,
+  `./images/reacttwo.jpg`,
+  `./images/reactthree.jpg`,
   `./images/searchmusic.jpg`
 ]
 
 let calorieImages = [
-  `./images/Capture2.jpg`,
+  `./images/calorie.jpg`,
   `./images/nutritionapi.jpg`,
   `./images/totals.jpg`,
-  `./images/loggedcalorie.jpg`,
+  `./images/logged.jpg`,
   `./images/custom.jpg`
 ]
 
