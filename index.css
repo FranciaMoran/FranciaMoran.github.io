@@ -137,3 +137,44 @@ html, body
   color: #3366ff;
   cursor: pointer;
 }
+
+#arrow-one-c {
+  float: right;
+  margin-top: 10%;
+  width: 5%;
+  margin-right: 5%;
+}
+
+#arrow-two-c {
+  float: left;
+  width: 5%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+#arrow-one-c:after{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+#arrow-one-c:hover {
+  color: #3366ff;
+  cursor: pointer;
+}
+
+#arrow-two-c:after{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+#arrow-two-c:hover {
+  color: #3366ff;
+  cursor: pointer;
+}
+
