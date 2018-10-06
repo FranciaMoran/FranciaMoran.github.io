@@ -76,11 +76,17 @@ html, body
     height: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/science.png);
+}
+
 #main-content {
 	float: left;
-	width:  80%;
-	height: 100%;
-	/*background-image: url(science.png);*/
+  margin-left: 5%;
+	width: 70%;
+  background-image: url(./images/what-the-hex.png);
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -230,3 +236,129 @@ html, body
   cursor: pointer;
 }
 
+@media only screen and (max-width: 320px) {
+#side-bar {
+  color: white;
+  background-image: url(https://franciamoran.github.io/images/dark-triangles.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 18%;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+}
+
+#nav-bar-personal-info {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#projects-title {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#nav-music {
+  display: inline;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+#nav-calorie {
+  display: inline;
+  font-size: 15px;
+   margin-left: 10px;
+}
+
+#nav-pet {
+  display: inline;
+  font-size: 15px;
+  margin-left:10px;
+}
+
+#main-content {
+  margin-top: 30%;
+  width:  90%;
+  height: 100%;
+  margin-left: 5%;
+  /*background-image: url(science.png);*/
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.centered-content {
+  text-align: center; 
+}
+
+#headline {
+    font-size: 25px;
+}
+
+#welcome {
+  font-size: 20px;
+}
+
+#bio-paragraph {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#arrow-one {
+  float: right;
+  margin-top: 15%;
+  width: 5%;
+  font-size: 45px;
+  margin-right: 5%;
+}
+
+#arrow-two {
+  float: left;
+  width: 5%;
+  margin-top: 15%;
+  margin-left: 5%;
+  font-size: 45px;
+}
+
+#arrow-one-b {
+  float: right;
+  margin-top: 8%;
+  width: 5%;
+  margin-right: 5%;
+  font-size: 45px;
+}
+
+#arrow-two-b {
+  font-size: 45px;
+  float: left;
+  width: 5%;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+#arrow-one-c {
+  float: right;
+  margin-top: 10%;
+  width: 5%;
+  margin-right: 5%;
+  font-size: 45px;
+}
+
+#arrow-two-c {
+  float: left;
+  width: 5%;
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: 45px;
+}
+}
