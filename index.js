@@ -31,6 +31,39 @@ function arrows() {
 
 $(arrows)
 
+function scroll() {
+  personalInfo();
+  music();
+  calorie();
+  pets();
+}
+
+$(scroll)
+
+function personalInfo() {
+    $('#nav-bar-personal-info').click(event => {
+      window.scrollTo(0,0);
+  })
+}
+
+function music() {
+    $('#nav-music').click(event => {
+      window.scrollTo(0,645);
+  })
+}
+
+function calorie() {
+    $('#nav-calorie').click(event => {
+      window.scrollTo(0,1450);
+  })
+}
+
+function pets() {
+    $('#nav-pet').click(event => {
+      window.scrollTo(0,2500);
+  })
+}
+
 function changeMusicImageRight() {
  $('#arrow-one').click(event => {
       event.preventDefault();
