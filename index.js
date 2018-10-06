@@ -107,13 +107,6 @@ function newMusicImageReturnedLeft(musicImages) {
 }
 
 
-
-
-
-
-
-
-
 function changeCalorieImageRight() {
  $('#arrow-one-b').click(event => {
       event.preventDefault();
@@ -155,7 +148,6 @@ function newCalorieImageReturnedLeft(calorieImages) {
     return `<img id="first-images" src="${calorieImages[b]}">`
   }
 }
-
 
 
 function changePetImageRight() {
