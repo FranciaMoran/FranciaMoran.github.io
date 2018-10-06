@@ -48,13 +48,13 @@ function personalInfo() {
 
 function music() {
     $('#nav-music').click(event => {
-      window.scrollTo(0,645);
+      window.scrollTo(0,630);
   })
 }
 
 function calorie() {
     $('#nav-calorie').click(event => {
-      window.scrollTo(0,1490);
+      window.scrollTo(0,1430);
   })
 }
 
