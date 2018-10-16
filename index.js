@@ -54,7 +54,7 @@ function music() {
 
 function calorie() {
     $('#nav-calorie').click(event => {
-      window.scrollTo(0,1447);
+      window.scrollTo(0,1500);
   })
 }
 
